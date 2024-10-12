@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang
+
+# disable 'go test': it tries to interact with the local keyring daemon
+override_dh_auto_test:

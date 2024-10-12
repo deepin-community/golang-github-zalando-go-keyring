@@ -1,5 +1,29 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-zalando-go-keyring (0.2.4-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 0.2.4
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anthony Fok <foka@debian.org>  Tue, 26 Mar 2024 17:36:53 -0600
+
+golang-github-zalando-go-keyring (0.2.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 0.2.3
+  * Reorder fields in debian/control and debian/copyright
+
+ -- Anthony Fok <foka@debian.org>  Sun, 15 Oct 2023 03:16:23 -0600
+
+golang-github-zalando-go-keyring (0.2.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 0.2.2
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Bump Standards-Version to 4.6.2 (no change)
+
+ -- Anthony Fok <foka@debian.org>  Sat, 11 Mar 2023 11:46:47 -0700
+
+golang-github-zalando-go-keyring (0.2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1024525)
+
+ -- Ryan Kavanagh <rak@debian.org>  Sun, 20 Nov 2022 18:17:41 -0500
